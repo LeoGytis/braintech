@@ -1,0 +1,406 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+
+/* 3rd-party */
+@import '../3rd-party/font-awesome.min.css';
+
+/* components */
+@import '../components/aboutUsFirst.css';
+@import '../components/button.css';
+@import '../components/features.css';
+@import '../components/form.css';
+@import '../components/footer.css';
+@import '../components/hero.css';
+@import '../components/header.css';
+@import '../components/lets-talk.css';
+@import '../components/blogs.css';
+@import '../components/services.css';
+@import '../components/search.css';
+@import '../components/ttSlides.css';
+@import '../components/partners1.css';
+@import '../components/partners2.css';
+@import '../components/nine.css';
+@import '../components/totopbtn.css';
+
+
+
+/* CUSTOM STYLE GOES BELOW THIS COMMENT LINE */
+
+/* header: start */
+
+/* header: end */
+
+/* hero: start */
+
+.bg-background1 {
+    position: relative;
+    z-index: 1;
+}
+
+.all-lines .line1 {
+    width: 1px;
+    height: 100%;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.2);
+    overflow: hidden;
+    z-index: 100;
+}
+
+.all-lines > .line1 > .falling-line1 {
+    position: absolute;
+    top: -100px;
+    width: 3px;
+    height: 80px;
+    background-image: linear-gradient(white, #106eea);
+    z-index: 100;
+    opacity: 1;
+    animation-name: lineFall1;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes lineFall1 {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+.all-lines > .line1 > .falling-line2 {
+    position: absolute;
+    top: -100px;
+    width: 3px;
+    height: 80px;
+    background-image: linear-gradient(white, #106eea);
+    animation-name: lineFall2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;   
+}
+
+@keyframes lineFall2 {
+    0% {
+        top: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 100%;
+        opacity: 1;
+    }
+}
+
+/* hero: end */
+
+/* companies1: start */
+
+/* companies1: end */
+
+/* about us 1: start */
+.happy-clients{
+    display: inline-block;
+    width: 100%;
+}
+
+.statistic {
+    display: inline-block;
+    width: 49%;
+}
+.statisticX {
+    display: inline-block;
+    width:50%;
+
+}
+.numX{
+
+    color:#03228f;
+    font-size:45px;
+    display: block;
+}
+.num {
+    color: var(--red);
+    font-size:45px;
+    display: block;
+}
+.txt {
+    display: inline;
+    font-size: 17px;
+    font-weight:600;
+}
+/* about us 1: end */
+
+/* about us 2: start */
+.about2-img{
+    width: 450px;
+}
+.barname{
+    font-size:14px;
+}
+.barpercent {
+    float: right;
+    font-weight: 700;
+}
+.bar-img{
+    width: 100%;
+    height:7px;
+    background-image: url('../../img/abous_us/bar.png');
+    background-size: 12px;
+    background-repeat: repeat-x;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+/* about us 2: end */
+
+/* services: start */
+/* services: end */
+
+/* why choose us: start */
+.why_choose {
+    height: auto;
+    padding-left: 30px;
+}
+/* why choose us: end */
+
+/* let's talk: start */
+.form {
+    padding: 25px 40px 50px;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 991px) {
+    .form {
+        margin-top: 40px;
+    }
+}
+
+.form > h1 {
+    text-align: center;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.form > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input {
+    padding: 12px 16px;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    background-color: var(--background2);
+    outline-style: none;
+}
+
+.form-row {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* let's talk: end */
+
+/* blogs: start */
+/* blogs: end */
+
+/* testimonials: start */ 
+.testimonials-block{
+    padding-left:30px;
+}
+.png {
+    position: absolute;
+    width: 40px;
+    top: 50px;
+    left: 40px;
+}
+.person {
+    position: relative;
+    margin-top: -55px;
+    
+}
+.person-info {
+    display: inline-block;
+    padding-top:20px;
+}
+.person > img {
+    
+    z-index: 0;
+    margin-right: 15px;
+    display: inline;
+    width: 90px;
+    border-radius: 50%;
+}
+.person-info .person-name {
+
+    margin-right: 50px;
+    margin-bottom: 10px;
+    font-size:22px;
+    font-weight: 550;
+}
+.person-info .person-response {
+    display: inline;
+    margin-right: 50px;
+    
+}
+/* testimonials: end */
+
+/* companies2: start */
+/* companies2: end */
+
+/* contacts: start */
+.contacts-col{
+    background: url(../../img/contacts/footer-bg.png);
+    background-color: #F5F6F9;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom-logo{
+    height: 40px;
+    margin-bottom: 30px;
+}
+
+.contact-block {
+    margin-bottom: 30px;
+}
+
+.contact-block > p {
+    color: #454545;
+    line-height: 1.8em;
+}
+
+.contact-block > .contact-info > p {
+    color: #454545;
+}
+
+.contact-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border: none;
+    border-radius: 50%;
+    background-color: var(--white);
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-right: 5px;
+}
+
+.contact-icon:hover {
+    background-color: #106eea;
+    transition: all 1s ease;
+    cursor: pointer;
+}
+
+.contact-block a:hover {
+    color: #106eea;
+}
+
+.contact-block .contact-info a:hover {
+    color: #106eea;
+}
+
+.contact-icon i {
+    padding: 10px;
+    color: #555;
+}
+
+.contact-icon i:hover {
+    color: var(--white);
+}
+
+.contact-info {
+    padding: 0px 0px 16px 40px;
+    position: relative;
+}
+
+.contact-info i {
+    position: absolute;
+    left: 0;
+    font-size: 24px;
+    color: #106eea;
+}
+
+.contact-info a {
+    color: #454545;
+    text-decoration: none;
+}
+
+h5 {
+    margin-bottom: 25px;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.it-services {
+    display: block;
+}
+
+.it-services > li {
+    margin-bottom: 12px;
+    list-style: none;
+}
+
+.it-services > li > a {
+    color: #454545;
+    text-decoration: none;
+}
+
+.form-row-2 {
+    margin: 30px 0 0;
+    position: relative;
+}
+
+.input-2 {
+    font-size: 13px;
+    padding: 16px 60px 16px 20px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    background-color: var(--white);
+    box-shadow: 0 0 25px #eeeeee;
+    outline-style: none;
+    width: 90%;
+    line-height: 25px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: 0;
+}
+
+.round-btn {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    border-radius: 50%;
+    padding: 15px 28px 15px;
+    background-image: linear-gradient(90deg, #03228f 0%, #0e73e4 100%);
+    border: none;
+    font-size: 0;
+}
+
+.round-btn:hover {
+    cursor: pointer;
+}
+
+.round-btn i {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    font-size: 20px;
+    color: var(--white);
+}
+
+/* contacts: end */
+
+/* footer: start */
+/* footer: end */

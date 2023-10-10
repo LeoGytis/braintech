@@ -1,0 +1,107 @@
+.lt-info{
+    display: flex;
+    margin-top: 30px;
+}
+
+.lt-ico{
+    display: inline;
+    margin-top: 10px;
+    height: 55px;
+    margin-right: 20px;
+}
+
+.lt-info .lt-text{
+    margin-top: 7px;
+}
+
+.lt-info .lt-text .lt-link{
+    font-size: 20px;
+    color: #0a0a0a;
+    font-weight: 600;
+    text-decoration: none !important;
+    outline: none !important;
+}
+
+.lt-info .lt-text .lt-link:hover{
+color: #106eea;
+transition: all 0.3s
+}
+
+.lt-info .lt-text .lt-description{
+    padding: 20px 0px 0px 0px;
+    font-size: 16px;
+    color: #454545;
+    font-weight: 400;
+}
+
+
+.bg-background2 {
+    position: relative;
+    z-index: 1;
+}
+
+.all-lines {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.all-lines > .line {
+    width: 2px;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+}
+
+.falling-line-1 {
+    position: absolute;
+    top: -100px;
+    width: 3px;
+    height: 50px;
+    background-image: linear-gradient(white, #106eea);
+    animation-name: lineFall-1;
+    animation-delay: 2s;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes lineFall-1 {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+.falling-line-2 {
+    position: absolute;
+    top: -100px;
+    width: 3px;
+    height: 50px;
+    background-image: linear-gradient(white, #106eea);
+    animation-name: lineFall-2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;   
+}
+
+@keyframes lineFall-2 {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 100%;
+    }
+}
+
+

@@ -1,0 +1,56 @@
+.btn {
+    display: inline-block;
+    color: white;
+    padding: 14px 40px;
+    border-radius: 35px;
+    text-transform: capitalize;
+    text-decoration: none !important;
+    cursor: pointer;
+}
+
+.get-started-btn {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 600;
+    background: linear-gradient(220deg, #f27c1e 0%, #dd4c23 79%);
+    transition: all 0.4s;
+}
+.get-started-btn:hover {
+    background: linear-gradient(180deg, #dd4c23 19%, #f27c1e 100%);
+}
+
+@media (max-width: 480px ) {
+    .get-started-btn {
+    padding: 10px 26px;
+    transition: all 0.4s;
+    }
+}
+
+.submit-btn{
+    border: none;
+    padding: 18px 18px;
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+    background-image: linear-gradient(160deg, #03228f 0%, #0b70e1 77%);
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 28px 50px 0 rgb(0 0 0 / 5%);
+}
+
+.submit-btn:hover {
+        opacity: 0.9;
+}
+
+.blue-btn{
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 30px;
+    background: linear-gradient(to right, #03228f 0%, #03228f 0%, #03228f 26%, #4e95ed 100%, #2989d8 100%, #207cca 100%, #0b70e1 100%);
+}
+
+.blue-btn:hover {
+    background: linear-gradient(to left, #03228f 0%, #03228f 0%, #03228f 26%, #4e95ed 100%, #2989d8 100%, #207cca 100%, #0b70e1 100%);
+}
