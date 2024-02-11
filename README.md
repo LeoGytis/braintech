@@ -4,13 +4,13 @@
 ![Eco Status](https://img.shields.io/badge/ECO-Friendly-green.svg)
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
-# Braintech portfolio
+# Braintech Project
+Project WebPage: https://leogytis.github.io/braintech/ <br><br>
 
 _35 group website project_
 
-This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
+Educational landing page project was undertaken as part of my coursework at BIT School, signifying an important chapter in my academic journey. It is a practical demonstration of web development, with a focus on using plain JavaScript.
 
-Site published at: https://front-end-by-rimantas.github.io/35-grupe-portfolio-braintech/
 
 Design: https://rstheme.com/products/html/braintech/index5.html
 
