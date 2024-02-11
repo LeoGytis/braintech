@@ -5,7 +5,7 @@
 [![Discord](https://discord.com/api/guilds/571393319201144843/widget.png)](https://discord.gg/dRwW4rw)
 
 # Braintech Project
-Project WebPage: https://leogytis.github.io/braintech/ <br><br>
+Project WebPage: https://leogytis.github.io/braintech/ <br>
 
 _35 group website project_
 
